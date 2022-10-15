@@ -1,0 +1,17 @@
+body{
+    
+}
+nav{
+    padding: 7px;
+    background-color: #bebebe;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}

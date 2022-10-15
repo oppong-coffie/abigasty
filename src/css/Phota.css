@@ -1,0 +1,8 @@
+.photabody{
+    background-color: violet;
+}
+.photaicons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

@@ -1,0 +1,92 @@
+.Body2{
+    padding: 10px;
+}
+.Body2text{
+    background-color: orange;
+    display: flex;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.pictures{
+    display: flex;
+    justify-content: space-between;
+}
+.pimg1{
+    width: 12%;
+    margin-top: -30px;
+}
+.pimg2{
+    width: 17%;
+    margin-top: -43px;
+    border-radius: 8px 0px 0px 0px;
+}
+.pimg3{
+    width: 17%;
+    margin-top: -140px;
+}
+.icons{
+    display: flex;
+    color: violet;
+    font-size: 60px;
+    margin-top: -50px;
+    margin-top: 10px;
+}
+.icontest{
+    font-size: 21px;
+    color: violet;
+    font-weight: 600;
+}
+.icon2{
+    margin-left: 100px;
+}
+.loveicon2{
+    color: violet;
+    font-size: 70px;
+}
+
+
+@media screen and (max-width: 600px) {
+   
+.Body2text{
+    display: block;
+    padding: 1px;
+    font-size: 15px;
+}
+.pictures{
+    display: block;
+}
+.pimg1{
+    width: 35%;
+    margin-top: -20px;
+}
+.pimg2{
+    width: 50%;
+    margin-top: -70px;
+    border-radius: 8px 0px 0px 0px;
+}
+.pimg3{
+    width: 80%;
+    margin-top: 0px;
+}
+.icons{
+    display: flex;
+    color: violet;
+    font-size: 60px;
+    margin-top: -50px;
+}
+.icontest{
+    font-size: 21px;
+    color: violet;
+    font-weight: 600;
+}
+.icon2{
+    margin-left: 200px;
+}
+.loveicon2{
+    color: violet;
+    font-size: 50px;
+    margin-top: 1px;
+}
+}
